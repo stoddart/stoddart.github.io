@@ -1,8 +1,17 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Minima", sans-serif;
+  font-size: 16px;
+  /* Or equivalent */
   margin: 20px;
   padding: 20px;
   text-align: center;
+}
+
+p {
+  font-size: inherit;
+  /* Inherits font size from parent element */
+  font-family: "Minima", sans-serif;
+  /* Other paragraph styles */
 }
 
 header {
@@ -32,9 +41,4 @@ img[alt] {
   font-size: inherit;
   /* Inherits font size from parent element */
   /* Additional styling properties */
-}
-
-p {
-  font-size: inherit;
-  /* Inherits font size from parent element */
 }
