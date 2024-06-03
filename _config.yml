@@ -1,6 +1,6 @@
 # Site settings
 title: Daniel Stoddart 
-description: A blog about technology by an ops guy 
+description: A blog about technology by an ops guy.
 baseurl: "" # The subpath of the site, e.g. /blog
 url: "https://stoddart.github.io" # The base hostname and protocol of for the site
 github_username: stoddart 
