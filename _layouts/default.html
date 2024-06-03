@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+  {{ site.head }}
+</head>
+
+<body>
+  <header>
+    <h1><a href="{{ site.url | relative_url }}">{{ site.title }}</a></h1>
+    <p>{{ site.description }}</p>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+    {% if site.github_username %}
+    <p>
+      Theme developed by <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>.
+    </p>
+    {% endif %}
+  </footer>
+</body>
+
+</html>
