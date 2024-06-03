@@ -33,3 +33,8 @@ img[alt] {
   /* Inherits font size from parent element */
   /* Additional styling properties */
 }
+
+p {
+  font-size: inherit;
+  /* Inherits font size from parent element */
+}
