@@ -1,14 +1,18 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 20px;
   text-align: center;
 }
 
-header,
-footer {
-  background-color: #f8f8f8;
+header {
   padding: 20px;
+  background-color: #f8f8f8;
+}
+
+footer {
+  padding: 20px;
+  background-color: #f8f8f8;
 }
 
 main {
@@ -16,4 +20,10 @@ main {
   margin: auto;
   max-width: 800px;
   text-align: left;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  /* Adjust max-width as needed */
 }
