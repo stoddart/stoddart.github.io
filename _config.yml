@@ -1,0 +1,8 @@
+# Site settings
+title: Daniel Stoddart 
+description: post nubes lux 
+theme: minima
+
+# Build settings
+markdown: kramdown
+
