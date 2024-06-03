@@ -27,3 +27,9 @@ main {
   max-width: 960px;
   /* Adjust max-width as needed */
 }
+
+img[alt] {
+  font-size: inherit;
+  /* Inherits font size from parent element */
+  /* Additional styling properties */
+}
