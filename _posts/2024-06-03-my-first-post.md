@@ -18,7 +18,7 @@ You can include subheadings, lists, links, images, and more:
 1. Numbered lists
 2. Another item
 
-[Link text](https://example.com)
+[Usually the Philippines is pretty sleepy, but sometimes there's some real excitement.](https://imgur.com/a/mount-kanlaon-has-erupted-again-p5tS7au)
 
 ![Image alt text](/path/to/image.png)
 
