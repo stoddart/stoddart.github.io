@@ -1,8 +1,13 @@
 # Site settings
 title: Daniel Stoddart 
-description: post nubes lux 
-theme: minima
+description: A blog about technology by an ops guy 
+baseurl: "" # The subpath of the site, e.g. /blog
+url: "https://stoddart.github.io" # The base hostname and protocol of for the site
+github_username: stoddart 
 
 # Build settings
+theme: minima
 markdown: kramdown
+plugins: 
+  - jekyll-feed
 
