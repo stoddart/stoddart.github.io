@@ -1,0 +1,26 @@
+// base.scss
+
+// Typography
+body {
+  font-family: $font-family;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+// Links
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Forms
+input,
+textarea {
+  border: 1px solid $secondary-color;
+  padding: $spacing-small;
+  border-radius: 4px;
+}

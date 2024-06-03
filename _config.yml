@@ -5,6 +5,9 @@ baseurl: "" # The subpath of the site, e.g. /blog
 url: "https://stoddart.github.io" # The base hostname and protocol of for the site
 github_username: stoddart 
 
+sass:
+  sass_dir: _sass
+
 # Build settings
 theme: minima
 markdown: kramdown

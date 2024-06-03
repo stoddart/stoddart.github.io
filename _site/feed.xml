@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://stoddart.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://stoddart.github.io/" rel="alternate" type="text/html" /><updated>2024-06-03T23:37:13+08:00</updated><id>https://stoddart.github.io/feed.xml</id><title type="html">Daniel Stoddart</title><subtitle>A blog about technology by an ops guy</subtitle><entry><title type="html">First post!</title><link href="https://stoddart.github.io/2024/06/03/my-first-post.html" rel="alternate" type="text/html" title="First post!" /><published>2024-06-03T00:00:00+08:00</published><updated>2024-06-03T00:00:00+08:00</updated><id>https://stoddart.github.io/2024/06/03/my-first-post</id><content type="html" xml:base="https://stoddart.github.io/2024/06/03/my-first-post.html"><![CDATA[<h1 id="ive-been-away-for-a-while">I’ve been away for a while.</h1>
+
+<p>Some of you may know that for the past several years, I’ve been living on a small island in the Philippines with my young family. By 2016, I had realised that I was in a rut personally and professionally and had decided a change of scenery was probably in order. Also, since I had been working remotely for a few years before that, I could no longer use a job as an excuse to not see more of the world. I had already been bitten by the travel bug by then. A 2007 trip to Israel to explore the Holy Land and ancient sites like Qumran and Masada had whetted my appetite to go off the beaten path and explore places far away from the usual European tourist haunts.</p>
+
+<h2 id="subheading">Subheading</h2>
+
+<p>You can include subheadings, lists, links, images, and more:</p>
+
+<ul>
+  <li>Bullet points</li>
+  <li>Another bullet point</li>
+</ul>
+
+<ol>
+  <li>Numbered lists</li>
+  <li>Another item</li>
+</ol>
+
+<p><a href="https://example.com">Link text</a></p>
+
+<p><img src="/path/to/image.png" alt="Image alt text" /></p>
+
+<hr />
+
+<p>You can include code snippets:</p>
+
+<p>```python
+print(“Hello, world!”)</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve been away for a while.]]></summary></entry></feed>
