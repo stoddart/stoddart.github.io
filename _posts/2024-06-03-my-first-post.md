@@ -9,6 +9,3 @@ Some of you may know that for the past several years, I've been living on a smal
 
 [Usually the Philippines is pretty sleepy, but sometimes there's some real excitement.](https://imgur.com/a/mount-kanlaon-has-erupted-again-p5tS7au)
 ---
-
-
-```python
