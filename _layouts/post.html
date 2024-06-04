@@ -4,28 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+
+
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+  {{ site.head }}
 </head>
 
 <body>
   <header>
-    <h1>{{ site.title }}</h1>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-      </ul>
-    </nav>
+    <h1><a href="{{ site.url | relative_url }}">{{ site.title }}</a></h1>
+    <p>{{ site.description }}</p>
   </header>
   <main>
-    <article>
-      <h2>{{ page.title }}</h2>
-      <p>{{ page.date | date: "%B %d, %Y" }}</p>
-      <div>{{ content }}</div>
-    </article>
+    {{ content }}
   </main>
   <footer>
-    <p>&copy; {{ site.title }} {{ "now" | date: "%Y" }}</p>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+    {% if site.github_username %}
+    <p>
+      Theme developed by <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>.
+    </p>
+    {% endif %}
   </footer>
 </body>
 
