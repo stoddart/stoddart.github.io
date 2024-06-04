@@ -15,5 +15,7 @@ It all started with a National Geographic magazine subscription that was a child
 
 Whenever an issue arrived in our rural Pennsylvania mailbox that featured the Philippines, I found myself taking a peculiar interest in the remote island archipelago. Articles with titles such as <i>The Last Tribes of Mindanao, Sea Gypsies of the Philippines,</i> and <i>Tropical Rainforests: Nature's Dwindling Treasures</i> fascinated me, firing my young imagination with visions of densely-packed rainforests of palm and banana trees, exotic and endangered animal species, and primitive cultures replete with supposedly noble savages and tribal chieftans.
 
+But in 2007, the idea of travelling to the Philippines, let alone living here, was a ludicrous proposition and something I would never imagine doing at that time. I liked my life in the USA for the most part, and I didn't see myself relocating to a southeast Asian country.
+
 <img src="/assets/images/kanlaon.jpg" style="max-width:50%; display:block; margin:auto;">
 <p style="text-align:center; font-size:inherit;">Usually the Philippines is pretty sleepy, but occasionally there's some real excitement.</p>
