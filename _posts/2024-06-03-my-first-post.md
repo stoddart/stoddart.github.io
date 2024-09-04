@@ -17,8 +17,19 @@ I was only supposed to be here on the island of Negros for six months, but becau
 
 It all started with a National Geographic magazine subscription that was a childhood gift from my grandparents when I was twelve years old. 
 
-Whenever an issue arrived in our rural Pennsylvania mailbox that featured the Philippines, I found myself taking a peculiar interest in the remote island archipelago. Articles with titles such as <i>The Last Tribes of Mindanao, Sea Gypsies of the Philippines,</i> and <i>Tropical Rainforests: Nature's Dwindling Treasures</i> fascinated me, firing my young imagination with visions of densely-packed rainforests of palm and banana trees, exotic and endangered animal species, and primitive cultures replete with supposedly noble savages and tribal chieftans.
+Whenever an issue arrived in our rural Pennsylvania mailbox that featured the Philippines, I found myself taking a particular interest in the remote island archipelago. Articles with titles such as <i>The Last Tribes of Mindanao, Sea Gypsies of the Philippines,</i> and <i>Tropical Rainforests: Nature's Dwindling Treasures</i> fascinated me, firing my young imagination with visions of densely-packed rainforests of palm and banana trees, exotic and endangered animal species, and primitive cultures replete with supposedly noble savages and tribal chieftans.
 
 In fairness, [Anthony Bourdain](https://www.amazon.com/Anthony-Bourdain-No-Reservations-Season/dp/B09229BZ67) must take some of the blame as well.
 
-But in 2007, the idea of travelling to the Philippines, let alone living here, was a ludicrous proposition and something I would never imagine doing at that time. I liked my life in the USA for the most part, and I didn't see myself relocating to a southeast Asian country on the other side of the planet.
+But in 2007, the idea of travelling to the Philippines, let alone living here, was a ludicrous proposition and something I would never imagine doing at that time. I liked my life in the USA for the most part, and I didn't see myself relocating to a southeast Asian country on the other side of the planet. I was still working as a land surveyor and driving to work. Even so, I was reading a lot about the archaeology of Israel, a country rich with ancient history. 
+
+I decided to save up my precious comp time and blow it all in one go on a trip to the Holy Land. My employer clearly didn't want to let me go for that long, but they couldn't say 'no' because I had earned it.  
+
+<img src="/assets/images/jerusalem.jpg" style="max-width:50%; display:block; margin:auto;">
+<p style="text-align:center; font-size:inherit;"><i>It was time for a real adventure.</i></p>
+
+So after a sleepless flight from New York City that I spent reading [guidebooks](https://a.co/d/hUw6sTQ), I landed in Tel-Aviv wide-eyed and beset with a sense of wonder. Little did I know what was in store for me!
+
+(To be continued...)
+
+
