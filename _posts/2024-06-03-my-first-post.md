@@ -10,7 +10,7 @@ Some of you may know that for the past several years, I've been living quietly o
 I was only supposed to be here on the island of Negros for six months, but because of a series of circumstances beyond my control, my brief sojourn turned into what physicist [Thomas Kuhn](https://plato.stanford.edu/entries/thomas-kuhn/) has called a "paradigm shift". And though my shift wasn't scientific in nature, it was a social and cultural rearrangement of assumptions I used to hold dear.
 
 
-<img src="/assets/images/kanlaon.jpg" style="max-width:50%; display:block; margin:auto;">
+<img src="/assets/images/kanlaon.jpg" style="max-width:75%; display:block; margin:auto;">
 <p style="text-align:center; font-size:inherit;"><i>Usually the Philippines is pretty sleepy, but occasionally there's some real excitement.</i></p>
 
 # I blame National Geographic 
@@ -25,7 +25,7 @@ But in 2007, the idea of travelling to the Philippines, let alone living here, w
 
 I decided to save up my precious comp time and blow it all in one go on a trip to the Holy Land. My employer clearly didn't want to let me go for that long, but they couldn't say 'no' because I had earned it.  
 
-<img src="/assets/images/jerusalem.jpg" style="max-width:50%; display:block; margin:auto;">
+<img src="/assets/images/jerusalem.jpg" style="max-width:75%; display:block; margin:auto;">
 <p style="text-align:center; font-size:inherit;"><i>It was time for a real adventure.</i></p>
 
 So after a sleepless flight from New York City that I spent reading [guidebooks](https://a.co/d/hUw6sTQ), I landed in Tel-Aviv wide-eyed and beset with a sense of wonder. Little did I know what was in store for me!
