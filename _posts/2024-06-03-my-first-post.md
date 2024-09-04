@@ -26,7 +26,7 @@ But in 2007, the idea of travelling to the Philippines, let alone living here, w
 I decided to save up my precious comp time and blow it all in one go on a trip to the Holy Land. My employer clearly didn't want to let me go for that long, but they couldn't say 'no' because I had earned it.  
 
 <img src="/assets/images/jerusalem.jpg" style="max-width:75%; display:block; margin:auto;">
-<p style="text-align:center; font-size:inherit;"><i>It was time for a real adventure.</i></p>
+<p style="text-align:center; font-size:inherit;"><i>It was time for a legit adventure.</i></p>
 
 So after a sleepless flight from New York City that I spent reading [guidebooks](https://a.co/d/hUw6sTQ), I landed in Tel-Aviv wide-eyed and beset with a sense of wonder. Little did I know what was in store for me!
 
