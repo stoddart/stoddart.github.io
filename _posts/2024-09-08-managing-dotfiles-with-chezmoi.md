@@ -62,7 +62,7 @@ $ chezmoi update
 ```
 Unlike other dotfile management solutions, chezmoi is a single binary with many install methods and no bootstrap requirements. It supports private files, whole file encryption, password manager integration, and custom variables in templates. With chezmoi you can set up your personal environment on a new machine with just two short commands, with minimal dependencies. 
 
-chezmoi is designed to work closely with git and other version control systems. It integrates version control commands directly into the workflow, simplifying both management and deployment. There's built-in templating, making it easy to customize your dotfiles for different machines, environments, or users. It also includes support for encryption, so you can safely manage secrets within your dotfiles repository using tools like GPG. 
+chezmoi is designed to work closely with git and other version control systems. It integrates version control commands directly into the workflow, simplifying both management and deployment. There's built-in templating, making it easy to customize your dotfiles for different machines, environments, or users. It also includes support for encryption, so you can safely manage secrets within your dotfiles repository using tools like [GPG](https://www.gnupg.org/). 
 
 The package is cross-platform and designed to work seamlessly on macOS, Linux, and Windows. This makes it much more flexible if you manage dotfiles across different operating systems, and chezmoi is a bit more sophisticated in the way it manages edge cases. It allows you to configure certain files to be symlinked, copied, or ignored. It also supports conditional logic, so you can define different behaviors depending on the system or environment.
 
