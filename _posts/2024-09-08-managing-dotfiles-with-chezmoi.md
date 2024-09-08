@@ -70,4 +70,4 @@ chezmoi is a higher-level tool with more built-in capabilities for managing dotf
 
 ## Summary
 
-chezmoi provides a more powerful, all-in-one solution for versioning, cross-platform usage, templating, and securely managing sensitive information. This makes it far superior for complex and modern dotfile management, especially in environments where you need version control, customization, and encryption.
+[chezmoi](https://www.chezmoi.io/) provides a more powerful, all-in-one solution for versioning, cross-platform usage, templating, and securely managing sensitive information. This makes it far superior for complex and modern dotfile management, especially in environments where you need version control, customization, and encryption.
