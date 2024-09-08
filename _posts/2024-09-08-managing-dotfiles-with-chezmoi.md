@@ -45,7 +45,7 @@ That setup didn't last long. I remembered [GNU stow](https://www.gnu.org/softwar
 
 I needed a different solution. So I was intrigued when I stumbled upon the chezmoi project after a perfunctory search. 
 
-[chezmoi](https://www.chezmoi.io) is a solution written in [Go](https://go.dev/) and focussed exclusively on home directory management. "Chezmoi" means "at my house" in French, and is pronounced /ʃeɪ mwa/ (shay-moi). It allows you to manage your configuration files across multiple machines running diverse operating systems, and solves the problems inherent in solutions that revolve around using bare git repos or symlinking. Some of the features include:
+[chezmoi](https://www.chezmoi.io) is a solution written in [Go](https://go.dev/) and focussed exclusively on home directory management. "chezmoi" means "at my house" in French, and is pronounced /ʃeɪ mwa/ (shay-moi). It allows you to manage your configuration files across multiple machines running diverse operating systems, and solves the problems inherent in solutions that revolve around using bare git repos or symlinking. Some of the features include:
 
 - Templates
 - Password manager support (most of the commonly used apps)
@@ -69,32 +69,3 @@ chezmoi is a higher-level tool with more built-in capabilities for managing dotf
 ## Summary
 
 chezmoi provides a more powerful, all-in-one solution for versioning, cross-platform usage, templating, and securely managing sensitive information. This makes it far superior for complex and modern dotfile management, especially in environments where you need version control, customization, and encryption.
-
-
-
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-expose sensitive data, so you're safe to keep it under version control. Just continue ensuring that the actual private key files (like ~/.ssh/id_rsa
