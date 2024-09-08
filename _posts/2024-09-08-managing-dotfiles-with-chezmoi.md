@@ -6,6 +6,9 @@ date: 2024-09-08
 
 # Managing dotfiles with chezmoi
 
+<img src="/assets/images/dotfiles.png" style="max-width:75%; display:block; margin:auto;">
+<p style="text-align:center; font-size:inherit;">
+
 Over the past five years or so, I've realised the benefits and power of [keeping the most important and configured dotfiles on my system under version control](https://dotfiles.github.io/).
 
 Simply put, managing your dotfiles with version control keeps historical versions of your configuration files so that if something goes wrong or you accidentally overwrite a crucial setting, you can easily and trivially revert to a previous state of the file. 
