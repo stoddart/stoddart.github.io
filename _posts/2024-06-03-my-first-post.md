@@ -1,6 +1,8 @@
 ---
 layout: post
 title: First post!
+date: 2024-06-03
+categories: travel, philippines, israel 
 ---
 
 # I've been away for a while
@@ -11,7 +13,7 @@ I was only supposed to be here on the island of Negros for six months, but becau
 
 
 <img src="/assets/images/kanlaon.jpg" style="max-width:75%; display:block; margin:auto;">
-<p style="text-align:center; font-size:inherit;"><i>Usually the Philippines is pretty sleepy, but occasionally there's some real excitement.</i></p>
+<p style="text-align:center; font-size:inherit;"><i>Usually the Philippines is pretty sleepy, but occasionally there's some real excitement</i></p>
 
 # I blame National Geographic 
 
@@ -21,12 +23,12 @@ Whenever an issue arrived in our rural Pennsylvania mailbox that featured the Ph
 
 In fairness, [Anthony Bourdain](https://www.amazon.com/Anthony-Bourdain-No-Reservations-Season/dp/B09229BZ67) must take some of the blame as well.
 
-But in 2007, the idea of travelling to the Philippines, let alone living here, was a ludicrous proposition and something I would never imagine doing at that time. I liked my life in the USA for the most part, and I didn't see myself relocating to a southeast Asian country on the other side of the planet. I was still working as a land surveyor and driving to work. Even so, I was reading a lot about the archaeology of Israel, a country rich with ancient history. 
+But in 2007, the idea of travelling to the Philippines, let alone living here, was a ludicrous proposition and something I would never imagine doing at that time. I liked my life in the USA for the most part, and I didn't see myself relocating to a southeast Asian country on the other side of the planet. I was still working as a land surveyor and commuting to work. Even so, I was reading a lot about the archaeology of Israel, a country rich with ancient history. 
 
 I decided to save up my precious comp time and blow it all in one go on a trip to the Holy Land. My employer clearly didn't want to let me go for that long, but they couldn't say 'no' because I had earned it.  
 
 <img src="/assets/images/jerusalem.jpg" style="max-width:75%; display:block; margin:auto;">
-<p style="text-align:center; font-size:inherit;"><i>It was time for a legit adventure.</i></p>
+<p style="text-align:center; font-size:inherit;"><i>It was time for a legit adventure</i></p>
 
 So after a sleepless flight from New York City that I spent reading [guidebooks](https://a.co/d/hUw6sTQ), I landed in Tel-Aviv wide-eyed and beset with a sense of wonder. Little did I know what was in store for me!
 
