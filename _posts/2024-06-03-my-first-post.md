@@ -2,7 +2,6 @@
 layout: post
 title: First post!
 date: 2024-06-03
-categories: travel, philippines, israel 
 ---
 
 # I've been away for a while
