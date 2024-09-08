@@ -31,7 +31,7 @@ In the past, to achieve this I had tried several methods. The first time, I used
 
 That setup didn't last long. I remembered [GNU stow](https://www.gnu.org/software/stow/) and decided that it might be a solution, since Stow is cross-platform and has very simple [git](https://git-scm.com/) integration. However, after using Stow to manage my dotfiles for a few years, I experienced the shortcomings:
 
-- Stow doesn't integrate fully with version control systems like git. And again, just like the previous method I used, it relies on symlinks to manage the dotfiles. Any versioning or tracking has to be done manually using git, so you need to manage your repository separately. 
+- Stow doesn't integrate fully with version control systems like git. And again, just like the previous method I used, it relies on symlinks to manage the dotfiles. Any versioning or tracking has to be done manually using git, so I had to manage my repository separately. 
 
 - Stow doesn't offer templating or encryption features. If you need to manage sensitive information (e.g., API keys) or customize dotfiles for different machines, you need to handle these separately. 
 
