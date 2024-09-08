@@ -2,7 +2,6 @@
 layout: post
 title: Managing dotfiles with chezmoi
 date: 2024-09-08
-categories: version control, dotfiles, github, chezmoi 
 ---
 
 # Managing dotfiles with chezmoi
