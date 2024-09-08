@@ -27,7 +27,7 @@ Version controlling your dotfiles adds a layer of robustness and flexibility to 
 
 ## Trial and error 
 
-In the past, to achieve this I had tried several methods. The first time, I used [an install script](https://blog.smalleycreative.com/using-git-and-github-to-manage-your-dotfiles/). This method was somewhat awkward because it creates symlinks and you need to follow up and edit file permissions. Ugh.
+In the past, to achieve this I had tried several methods. The first time, I used [an install script](https://blog.smalleycreative.com/using-git-and-github-to-manage-your-dotfiles/). This method was somewhat awkward because it creates symlinks and I needed to follow up and edit file permissions. Ugh.
 
 That setup didn't last long. I remembered [GNU stow](https://www.gnu.org/software/stow/) and decided that it might be a solution, since Stow is cross-platform and has very simple [git](https://git-scm.com/) integration. However, after using Stow to manage my dotfiles for a few years, I experienced the shortcomings:
 
