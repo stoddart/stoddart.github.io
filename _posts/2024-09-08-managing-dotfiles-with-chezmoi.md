@@ -55,7 +55,7 @@ I needed a different solution. So I was intrigued when I stumbled upon the chezm
 - Full file encryption for secrets
 - Running scripts 
 
-Best of all, updating your dotfiles on a given machine is a single command:
+Best of all, updating your dotfiles on a given machine is a single command: 
 
 ```
 $ chezmoi update
