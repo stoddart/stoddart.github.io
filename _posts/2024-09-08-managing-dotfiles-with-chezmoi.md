@@ -58,7 +58,7 @@ I needed a different solution. So I was intrigued when I stumbled upon the chezm
 Best of all, updating your dotfiles on a given machine is a single command: 
 
 ```
-$ chezmoi update
+> chezmoi update
 ```
 
 Unlike other dotfile management solutions, chezmoi is a single binary with many install methods and no bootstrap requirements. It supports private files, whole file encryption, password manager integration, and custom variables in templates. With chezmoi you can set up your personal environment on a new machine with just two short commands, with minimal dependencies. 
@@ -66,13 +66,13 @@ Unlike other dotfile management solutions, chezmoi is a single binary with many 
 After installing chezmoi, follow the [quick start guide](https://www.chezmoi.io/quick-start/) to make the initial commit:
 
 ```
-chezmoi init
-chezmoi add ~/.zshrc
-chezmoi cd
-git commit -m 'init'
-git remote add # Set remote to your repo
-git branch -M main
-git push origin main
+> chezmoi init
+> chezmoi add ~/.zshrc
+> chezmoi cd
+> git commit -m 'init'
+> git remote add # Set remote to your repo
+> git branch -M main
+> git push origin main
 ```
 
 Now your `~/.zshrc` is under version control. 
