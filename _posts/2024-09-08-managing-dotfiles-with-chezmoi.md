@@ -27,7 +27,7 @@ Version controlling your dotfiles adds a layer of robustness and flexibility to 
 
 ## Trial and error 
 
-In the past, to achieve this I had tried several methods. The first time, I used [an install script](https://blog.smalleycreative.com/using-git-and-github-to-manage-your-dotfiles/). Doing it that way was somewhat awkward because it created symlinks and I needed to follow up and edit file permissions to make them executable. It also lacked idempotence, because if I ran the script twice it was possible to erase the original dotfiles before the script ran again.
+In the past, to achieve this I had tried several methods. The first time, I used [an install script](https://blog.smalleycreative.com/using-git-and-github-to-manage-your-dotfiles/). Doing it that way was somewhat awkward because it created symlinks and I needed to follow up and edit file permissions to make them executable. It also lacked idempotence, because if I ran the script twice by mistake it was possible to erase the original dotfiles before the script ran again.
 
 That setup didn't last long. I remembered [GNU stow](https://www.gnu.org/software/stow/) and decided that it might be a solution, since Stow is cross-platform and has very simple [git](https://git-scm.com/) integration. However, after using Stow to manage my dotfiles for a few years, I experienced the shortcomings:
 
@@ -60,7 +60,6 @@ Best of all, updating your dotfiles on a given machine is a single command:
 ```
 $ chezmoi update
 ```
-
 Unlike other dotfile management solutions, chezmoi is a single binary with many install methods and no bootstrap requirements. It supports private files, whole file encryption, password manager integration, and custom variables in templates. With chezmoi you can set up your personal environment on a new machine with just two short commands, with minimal dependencies. 
 
 After installing chezmoi, follow the [quick start guide](https://www.chezmoi.io/quick-start/) to make the initial commit:
