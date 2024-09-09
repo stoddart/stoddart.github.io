@@ -55,11 +55,7 @@ I needed a different solution. So I was intrigued when I stumbled upon the chezm
 - Full file encryption for secrets
 - Running scripts 
 
-Best of all, updating your dotfiles on a given machine is a single command: 
-
-
-    > chezmoi update
-
+Best of all, updating your dotfiles on a given machine is a single command: `> chezmoi update`
 
 Unlike other dotfile management solutions, chezmoi is a single binary with many install methods and no bootstrap requirements. It supports private files, whole file encryption, password manager integration, and custom variables in templates. With chezmoi you can set up your personal environment on a new machine with just two short commands, with minimal dependencies. 
 
