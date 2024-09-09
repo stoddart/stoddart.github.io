@@ -29,7 +29,7 @@ Version controlling your dotfiles adds a layer of robustness and flexibility to 
 
 In the past, to achieve this I had tried several methods. The first time, I used [an install script](https://blog.smalleycreative.com/using-git-and-github-to-manage-your-dotfiles/). Doing it that way was somewhat awkward because it created symlinks and I needed to follow up and edit file permissions to make them executable. It also lacked idempotence, because if I ran the script twice by mistake it was possible to erase the original dotfiles before the script ran again.
 
-That setup didn't last long. I remembered [GNU stow](https://www.gnu.org/software/stow/) and decided that it might be a solution, since Stow is cross-platform and has very simple [git](https://git-scm.com/) integration. However, after using Stow to manage my dotfiles for a few years, I experienced the shortcomings:
+That setup didn't last long. I remembered [GNU Stow](https://www.gnu.org/software/stow/) and decided that it might be a solution, since Stow is cross-platform and has very simple [git](https://git-scm.com/) integration. However, after using Stow to manage my dotfiles for a few years, I experienced the shortcomings:
 
 - Stow doesn't integrate fully with version control systems like git. And again, just like the previous method I used, it relies on symlinks to manage the dotfiles. Any versioning or tracking has to be done manually using git, so I had to manage my repository separately. 
 
@@ -75,7 +75,7 @@ After installing chezmoi, follow the [quick start guide](https://www.chezmoi.io/
 
 Now your ~/.zshrc is under version control. You can go ahead and add your most important dotfiles, like ~/.bashrc, ~/.bash_profile, ~/.profile, ~/.zshenv, ~/.tmux.conf, ~/.vimrc (or in my case, ~/.config/nvim/init.lua), ~/.ssh/config, ~/.gitconfig, ~/.gitignore_global, ~/.pythonrc, ~/.npmrc, ~/.curlrc, ~/.wgetrc, &c.
 
-chezmoi is designed to work closely with git and other version control systems. It integrates version control commands directly into the workflow, simplifying both management and deployment. There's built-in templating, making it easy to customize your dotfiles for different machines, environments, or users. It also includes support for encryption, so you can safely manage secrets within your dotfiles repository using tools like [GPG](https://www.gnupg.org/).
+chezmoi is designed to work closely with git and other version control systems. It integrates version control commands directly into your workflow, simplifying both management and deployment. There's built-in templating, making it easy to customize your dotfiles for different machines, environments, or users. It also includes support for encryption, so you can safely manage secrets within your dotfiles repository using tools like [GPG](https://www.gnupg.org/).
 
 The package is cross-platform and designed to work seamlessly on Linux, macOS, and Windows. This makes it much more flexible if you manage dotfiles across different operating systems, and chezmoi is a bit more sophisticated in the way it manages edge cases. It allows you to configure certain files to be symlinked, copied, or ignored. It also supports conditional logic, so you can define different behaviours depending on the system or environment.
 
