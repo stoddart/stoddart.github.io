@@ -27,7 +27,7 @@ Version controlling your dotfiles adds a layer of robustness and flexibility to 
 
 A few days ago, I discovered [chezmoi](https://www.chezmoi.io/), a command-line tool designed to manage dotfiles across different machines. It works by creating a repository of your dotfiles and handling the synchronisation and deployment of these files to your systems. This makes it easier to keep your configurations in sync, apply updates, and share settings across multiple machines.
 
-<img src="/assets/images/officespace.jpg" style="max-width:100%; display:block; margin:auto;">
+<img src="/assets/images/officespace.jpg" style="max-width:75%; display:block; margin:auto;">
 <p style="text-align:center; font-size:inherit;"><i>Sometimes, a thing is almost too good to be true</i></p>
 
 It turns out that chezmoi is [an amazing piece of work by a group of developers](https://github.com/twpayne/chezmoi) who deeply understand git integration and workflow (more on that later). But before I could fully appreciate this new development, I had to embark on a series of false starts and wound up in some dead ends while trying to optimise my workflow. 
