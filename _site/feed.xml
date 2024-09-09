@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-09T09:45:16+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Daniel Stoddart</title><subtitle>A blog by a full stack web developer from Philadelphia.</subtitle><entry><title type="html">Managing dotfiles with chezmoi</title><link href="http://localhost:4000/2024/09/08/managing-dotfiles-with-chezmoi.html" rel="alternate" type="text/html" title="Managing dotfiles with chezmoi" /><published>2024-09-08T00:00:00+08:00</published><updated>2024-09-08T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/08/managing-dotfiles-with-chezmoi</id><content type="html" xml:base="http://localhost:4000/2024/09/08/managing-dotfiles-with-chezmoi.html"><![CDATA[<h1 id="managing-dotfiles-with-chezmoi">Managing dotfiles with chezmoi</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-09T09:49:02+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Daniel Stoddart</title><subtitle>A blog by a full stack web developer from Philadelphia.</subtitle><entry><title type="html">Managing dotfiles with chezmoi</title><link href="http://localhost:4000/2024/09/08/managing-dotfiles-with-chezmoi.html" rel="alternate" type="text/html" title="Managing dotfiles with chezmoi" /><published>2024-09-08T00:00:00+08:00</published><updated>2024-09-08T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/08/managing-dotfiles-with-chezmoi</id><content type="html" xml:base="http://localhost:4000/2024/09/08/managing-dotfiles-with-chezmoi.html"><![CDATA[<h1 id="managing-dotfiles-with-chezmoi">Managing dotfiles with chezmoi</h1>
 
 <p><img src="/assets/images/dotfiles.png" style="max-width:75%; display:block; margin:auto;" /></p>
 <p style="text-align:center; font-size:inherit;"><i>Dotfiles. Don't leave home without 'em</i></p>
@@ -23,7 +23,7 @@
 
 <h2 id="trial-and-error">Trial and error</h2>
 
-<p>In the past, to achieve this I had tried several methods. The first time, I used <a href="https://blog.smalleycreative.com/using-git-and-github-to-manage-your-dotfiles/">an install script</a>. Doing it that way was somewhat awkward because it created symlinks and I needed to follow up and edit file permissions to make them executable. It also lacked idempotence, because if I ran the script twice it was possible to erase the original dotfiles before the script ran again.</p>
+<p>In the past, to achieve this I had tried several methods. The first time, I used <a href="https://blog.smalleycreative.com/using-git-and-github-to-manage-your-dotfiles/">an install script</a>. Doing it that way was somewhat awkward because it created symlinks and I needed to follow up and edit file permissions to make them executable. It also lacked idempotence, because if I ran the script twice by mistake it was possible to erase the original dotfiles before the script ran again.</p>
 
 <p>That setup didn’t last long. I remembered <a href="https://www.gnu.org/software/stow/">GNU stow</a> and decided that it might be a solution, since Stow is cross-platform and has very simple <a href="https://git-scm.com/">git</a> integration. However, after using Stow to manage my dotfiles for a few years, I experienced the shortcomings:</p>
 
@@ -66,7 +66,6 @@
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ chezmoi update
 </code></pre></div></div>
-
 <p>Unlike other dotfile management solutions, chezmoi is a single binary with many install methods and no bootstrap requirements. It supports private files, whole file encryption, password manager integration, and custom variables in templates. With chezmoi you can set up your personal environment on a new machine with just two short commands, with minimal dependencies.</p>
 
 <p>After installing chezmoi, follow the <a href="https://www.chezmoi.io/quick-start/">quick start guide</a> to make the initial commit:</p>
