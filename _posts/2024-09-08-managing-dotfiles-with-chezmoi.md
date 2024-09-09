@@ -45,7 +45,7 @@ That setup didn't last long. I remembered [GNU stow](https://www.gnu.org/softwar
 
 ## chezmoi to the rescue!
 
-I needed a different solution. So I was intrigued when I stumbled upon the chezmoi project after a perfunctory search. 
+I needed a better solution with less maintenance. So I was intrigued when I stumbled upon the chezmoi project after a perfunctory search. 
 
 [chezmoi](https://www.chezmoi.io) is an application written in [Go](https://go.dev/) and focussed exclusively on home directory management. "chezmoi" means "at my house" in French, and is pronounced /ʃeɪ mwa/ (shay-moi). It allows you to manage your configuration files across multiple machines running diverse operating systems, and solves the problems inherent in solutions that revolve around using bare git repos or symlinking. Some of the features include:
 
@@ -73,7 +73,7 @@ After installing chezmoi, follow the [quick start guide](https://www.chezmoi.io/
 > git push origin main
 ```
 
-Now your `~/.zshrc` is under version control. 
+Now your `~/.zshrc` is under version control. You can go ahead and add your most important dotfiles, like `~/.bashrc`, `~/.bash_profile`, `~/.profile`, `~/.zshenv`, `~/.tmux.conf`, `~/.vimrc` (or in my case, `~/.config/nvim/init.lua`), `~/.ssh/config`, `~/.gitconfig`, `~/.gitignore_global`, `~/.pythonrc`, `~/.npmrc`, `~/.curlrc`, `~/.wgetrc` &c.
 
 chezmoi is designed to work closely with git and other version control systems. It integrates version control commands directly into the workflow, simplifying both management and deployment. There's built-in templating, making it easy to customize your dotfiles for different machines, environments, or users. It also includes support for encryption, so you can safely manage secrets within your dotfiles repository using tools like [GPG](https://www.gnupg.org/).
 
