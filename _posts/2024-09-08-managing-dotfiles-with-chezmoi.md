@@ -73,7 +73,7 @@ After installing chezmoi, follow the [quick start guide](https://www.chezmoi.io/
 > git push origin main
 ```
 
-Now your `~/.zshrc` is under version control. You can go ahead and add your most important dotfiles, like `~/.bashrc`, `~/.bash_profile`, `~/.profile`, `~/.zshenv`, `~/.tmux.conf`, `~/.vimrc` (or in my case, `~/.config/nvim/init.lua`), `~/.ssh/config`, `~/.gitconfig`, `~/.gitignore_global`, `~/.pythonrc`, `~/.npmrc`, `~/.curlrc`, `~/.wgetrc` &c.
+Now your `~/.zshrc` is under version control. You can go ahead and add your most important dotfiles, like `~/.bashrc`, `~/.bash_profile`, `~/.profile`, `~/.zshenv`, `~/.tmux.conf`, `~/.vimrc` (or in my case, `~/.config/nvim/init.lua`), `~/.ssh/config`, `~/.gitconfig`, `~/.gitignore_global`, `~/.pythonrc`, `~/.npmrc`, `~/.curlrc`, `~/.wgetrc`, &c.
 
 chezmoi is designed to work closely with git and other version control systems. It integrates version control commands directly into the workflow, simplifying both management and deployment. There's built-in templating, making it easy to customize your dotfiles for different machines, environments, or users. It also includes support for encryption, so you can safely manage secrets within your dotfiles repository using tools like [GPG](https://www.gnupg.org/).
 
