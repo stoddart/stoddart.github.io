@@ -49,7 +49,7 @@ That setup didn't last long. I remembered [GNU Stow](https://www.gnu.org/softwar
 
 ## chezmoi to the rescue!
 
-I needed a better solution with less maintenance. So I was intrigued when I stumbled upon the chezmoi project after a perfunctory search. 
+I needed a better solution with less maintenance overhead. So I was intrigued when I stumbled upon the chezmoi project after a perfunctory search. 
 
 [chezmoi](https://www.chezmoi.io) is an application written in [Go](https://go.dev/) and focussed exclusively on home directory management. "chezmoi" means "at my house" in French, and is pronounced /ʃeɪ mwa/ (shay-moi). It allows you to manage your configuration files across multiple machines running diverse operating systems, and solves the problems inherent in solutions that revolve around using bare git repos or symlinking. Some of the features include:
 
