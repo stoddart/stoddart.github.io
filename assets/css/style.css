@@ -71,7 +71,7 @@ footer {
   border-top: 1px solid #eee;
   margin-top: 3rem;
   color: var(--secondary-text);
-  font-size: var(--footer-font-size);
+  font-size: var(--subtitle-font-size);
   text-align: center;
 }
 
