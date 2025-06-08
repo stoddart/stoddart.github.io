@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 2.2em;
   font-weight: 600;
   margin: 0;
   padding: 0;
@@ -25,14 +25,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2.2em;
   font-weight: 600;
   margin: 1.5em 0 0.8em;
   color: var(--header-color);
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.8em;
   font-weight: 600;
   margin: 1.2em 0 0.6em;
   color: var(--header-color);
@@ -96,13 +96,13 @@ main {
 }
 
 .post-list li {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
 }
 
 .post-link {
   color: var(--header-color);
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 2.2em;
   font-weight: 500;
   line-height: 1.4;
 }
@@ -145,9 +145,9 @@ main {
 }
 
 .personal-links h3 {
-  font-size: 1.1em;
+  font-size: 1.8em;
   margin-bottom: 1rem;
-  color: var(--secondary-text);
+  color: var(--header-color);
 }
 
 .personal-links ul {
@@ -163,7 +163,7 @@ main {
 .personal-links a {
   color: var(--link-color);
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .personal-links a:hover {
