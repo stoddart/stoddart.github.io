@@ -4,7 +4,9 @@
   --link-color: #0066cc;
   --header-color: #000;
   --secondary-text: #666;
-  --nav-font-size: 2.2em;
+  --nav-font-size: 1.8em;
+  --subtitle-font-size: 1.1em;
+  --footer-font-size: 0.9em;
 }
 
 body {
@@ -60,7 +62,7 @@ header h1 a {
 header p {
   color: var(--secondary-text);
   margin: 0.5em 0 0;
-  font-size: 1.1em;
+  font-size: var(--subtitle-font-size);
 }
 
 footer {
@@ -69,7 +71,7 @@ footer {
   border-top: 1px solid #eee;
   margin-top: 3rem;
   color: var(--secondary-text);
-  font-size: 0.9em;
+  font-size: var(--footer-font-size);
   text-align: center;
 }
 
