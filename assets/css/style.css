@@ -47,6 +47,7 @@ header {
   padding: 3rem 0 2rem;
   background-color: transparent;
   border-bottom: none;
+  text-align: center;
 }
 
 header h1 a {
@@ -67,13 +68,14 @@ footer {
   margin-top: 3rem;
   color: var(--secondary-text);
   font-size: 0.9em;
+  text-align: center;
 }
 
 main {
   padding: 0 20px;
   margin: auto;
   max-width: 700px;
-  text-align: left;
+  text-align: center;
 }
 
 .container {
@@ -90,6 +92,7 @@ main {
   list-style: none;
   padding: 0;
   margin: 2rem 0;
+  text-align: left;
 }
 
 .post-list li {
@@ -111,6 +114,7 @@ main {
 /* Post page specific styles */
 .post {
   margin: 2rem 0;
+  text-align: left;
 }
 
 .post-content {
@@ -137,6 +141,7 @@ main {
   margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid #eee;
+  text-align: left;
 }
 
 .personal-links h3 {
