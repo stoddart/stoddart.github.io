@@ -31,6 +31,54 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  categories:
+    output: true
+    permalink: /categories/:name/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Daniel Stoddart"
+      comments: true
+      share: true
+
+# Category settings
+category_dir: categories
+category_title_prefix: "Category: "
+
+# Navigation
+nav_items:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Categories
+    url: /categories
+  - title: Archive
+    url: /archive
+
+# Social media links
+social:
+  - name: GitHub
+    url: https://github.com/yourusername
+  - name: Twitter
+    url: https://twitter.com/yourusername
+  - name: LinkedIn
+    url: https://linkedin.com/in/yourusername
+
+# Design settings
+theme_color: "#2a7ae2"
+accent_color: "#f5f5f5"
+text_color: "#333333"
 
 # Markdown settings
 markdown: kramdown
