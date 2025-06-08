@@ -58,9 +58,45 @@ main {
   max-width: 700px;
 }
 
+/* Home page specific styles */
+.home {
+  padding: 2rem 0;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  margin-bottom: 1.5rem;
+}
+
+.post-list-heading {
+  margin-bottom: 1.5rem;
+}
+
+.post-meta {
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+.post-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
 .personal-links {
-  margin-top: 2rem;
-  padding-top: 1rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
   border-top: 1px solid #eee;
 }
 
