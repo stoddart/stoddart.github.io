@@ -182,3 +182,47 @@ img[alt] {
   height: auto;
   margin: 1.5rem 0;
 }
+
+/* Mobile optimization */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  header {
+    padding: 2rem 1rem 1.5rem;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .post {
+    margin: 1.5rem 0;
+  }
+
+  .post-content {
+    padding: 0 0.5rem;
+  }
+
+  .post-navigation {
+    margin-top: 2rem;
+    padding: 0 0.5rem;
+  }
+
+  .personal-links {
+    padding: 0 0.5rem;
+  }
+}
+
+/* Ensure images don't overflow on mobile */
+img[alt] {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  display: block;
+}
