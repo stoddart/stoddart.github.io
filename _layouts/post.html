@@ -8,9 +8,6 @@ layout: default
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date: "%B %-d, %Y" }}
       </time>
-      {%- if page.author -%}
-        • {{ page.author }}
-      {%- endif -%}
       {%- if page.categories.size > 0 -%}
         • 
         {%- for category in page.categories -%}
