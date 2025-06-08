@@ -47,7 +47,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Daniel Stoddart"
       comments: true
       share: true
 
