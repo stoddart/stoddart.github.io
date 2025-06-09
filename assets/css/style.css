@@ -233,7 +233,7 @@ img[alt] {
 }
 
 .blog-title {
-  text-align: left;
+  text-align: center !important;
   margin: 2rem 0;
   font-size: 16px !important;
 }
