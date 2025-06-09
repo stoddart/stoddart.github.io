@@ -67,7 +67,7 @@ header h1 a {
 header p {
   color: var(--secondary-text);
   margin: 0;
-  font-size: 1em;
+  font-size: var(--subtitle-font-size);
   line-height: 1;
 }
 
