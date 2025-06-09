@@ -109,9 +109,9 @@ main {
 .post-link {
   color: var(--header-color);
   text-decoration: none;
-  font-size: var(--nav-font-size);
-  font-weight: 500;
-  line-height: 1.4;
+  font-size: var(--nav-font-size) !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
 }
 
 .post-link:hover {
