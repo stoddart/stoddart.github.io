@@ -30,8 +30,8 @@ h1, h1 a {
 }
 
 h2 {
-  font-size: var(--nav-font-size);
-  font-weight: 600;
+  font-size: 28.8px !important;
+  font-weight: 500;
   margin: 1.5em 0 0.8em;
   color: var(--header-color);
 }
