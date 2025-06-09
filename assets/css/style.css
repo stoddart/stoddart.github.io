@@ -49,7 +49,7 @@ p {
 }
 
 header {
-  padding: 1.5rem 0 1rem;
+  padding: 1.5rem 0 0.5rem;
   background-color: transparent;
   border-bottom: none;
   display: flex;
@@ -66,9 +66,8 @@ header h1 a {
 
 header p {
   color: var(--secondary-text);
-  margin: 0;
+  margin: 5px 0 0 0;
   font-size: 1em;
-  line-height: 1.3;
 }
 
 footer {
@@ -236,7 +235,7 @@ img[alt] {
 }
 
 .blog-title {
-  margin: 0 0 0.5rem 0;
+  margin: 0;
   font-size: 16px !important;
   text-align: center;
 }
