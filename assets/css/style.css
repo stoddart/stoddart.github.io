@@ -19,27 +19,32 @@ body {
   color: var(--text-color);
 }
 
-h1, h1 a {
+h1, h1 a, h2, h3 {
   font-size: 28.8px !important;
   font-weight: 500;
-  margin: 0;
-  padding: 0;
-  line-height: 1.4;
   color: var(--header-color);
   text-decoration: none;
 }
 
+h1, h1 a {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
 h2 {
-  font-size: 28.8px !important;
-  font-weight: 500;
   margin: 1.5em 0 0.8em;
-  color: var(--header-color);
 }
 
 h3 {
-  font-size: var(--nav-font-size);
-  font-weight: 600;
   margin: 1.2em 0 0.6em;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  font-size: 28.8px !important;
+  font-weight: 500;
   color: var(--header-color);
 }
 
