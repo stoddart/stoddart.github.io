@@ -113,7 +113,6 @@ main {
   line-height: 1.4 !important;
   color: var(--header-color);
   text-decoration: none;
-  border: 2px dashed red;
 }
 
 .post-link:hover {
@@ -236,6 +235,9 @@ img[alt] {
   text-align: center !important;
   margin: 2rem 0;
   font-size: 16px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blog-title .post-link {
