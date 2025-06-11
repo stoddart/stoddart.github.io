@@ -20,7 +20,7 @@ It all started with a National Geographic magazine subscription that was a child
 
 Whenever an issue arrived in our rural Pennsylvania mailbox that featured the Philippines, I found myself taking a particular interest in the remote island archipelago. Articles with titles such as <i>The Last Tribes of Mindanao, Sea Gypsies of the Philippines,</i> and <i>Tropical Rainforests: Nature's Dwindling Treasures</i> fascinated me, firing my young imagination with visions of densely-packed rainforests of palm and banana trees, exotic and endangered animal species, and primitive cultures replete with supposedly noble savages and tribal chieftans.
 
-In fairness, [Anthony Bourdain](https://www.amazon.com/Anthony-Bourdain-No-Reservations-Season/dp/B09229BZ67) must take some of the blame as well.
+In fairness, [Anthony Bourdain](https://www.amazon.com/Anthony-Bourdain-No-Reservations/dp/B0DLV3C3J9/) must take some of the blame as well.
 
 But in 2007, the idea of travelling to the Philippines, let alone living here, was a ludicrous proposition and something I would never imagine doing at that time. I liked my life in the USA for the most part, and I didn't see myself relocating to a southeast Asian country on the other side of the planet. I was still working as a land surveyor and commuting to work. Even so, I was reading a lot about the archaeology of Israel, a country rich with ancient history. 
 
