@@ -1,15 +1,29 @@
 // variables.scss
 
-// Colors
-$primary-color: #007bff;
-$secondary-color: #6c757d;
-$success-color: #28a745;
-$error-color: #dc3545;
+// Colors - warm earth tones
+$background-color: #f5f0e8;      // warm parchment
+$text-color: #2c1810;            // deep brown
+$primary-color: #7b4a2d;         // medium brown (links)
+$secondary-color: #8b7355;       // muted tan (meta text)
+$accent-color: #e8dcc8;          // light tan (code blocks)
+$border-color: #c8b89a;          // warm beige border
+$header-bg: #3d2410;             // dark brown header
+$header-text: #f5f0e8;           // parchment on dark header
+$footer-color: #ede5d8;          // slightly darker parchment
 
-// Fonts
-$font-family: Arial, sans-serif;
+// Typography
+$font-family: Georgia, 'Times New Roman', serif;
+$font-family-mono: 'JetBrains Mono', 'Courier New', monospace;
+$font-size-base: 18px;
+$font-size-small: 14px;
+$font-size-large: 24px;
+$font-size-title: 42px;
+$font-size-h1: 32px;
+$font-size-h2: 26px;
+$line-height: 1.75;
 
 // Spacing
 $spacing-small: 10px;
 $spacing-medium: 20px;
-$spacing-large: 30px;
+$spacing-large: 40px;
+$max-width: 740px;

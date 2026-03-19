@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>{{ site.title }}</title>
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
   {{ site.head }}
 </head>
-
 <body>
   <header>
-    <div class="blog-title">
-      <a class="post-link" href="/">{{ site.title }}</a>
+    <div class="header-inner">
+      <div class="blog-title">
+        <a href="/">{{ site.title }}</a>
+      </div>
+      <p class="blog-description">{{ site.description }}</p>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/categories">Categories</a>
+      </nav>
     </div>
-    <p>{{ site.description }}</p>
   </header>
   <main>
     {{ content }}
@@ -27,5 +30,4 @@
     <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</p>
   </footer>
 </body>
-
 </html>

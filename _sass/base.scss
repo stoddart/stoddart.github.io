@@ -1,11 +1,88 @@
 // base.scss
 
-// Typography
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: $font-family;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: $font-size-base;
+  line-height: $line-height;
+  color: $text-color;
+  background-color: $background-color;
 }
+
+// Header
+header {
+  background-color: $header-bg;
+  padding: $spacing-large $spacing-medium $spacing-medium;
+  margin-bottom: $spacing-large;
+
+  .header-inner {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  .blog-title a {
+    font-size: $font-size-title;
+    font-weight: bold;
+    color: $header-text;
+    text-decoration: none;
+    letter-spacing: -1px;
+    display: block;
+    margin-bottom: 6px;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  .blog-description {
+    font-size: $font-size-small;
+    color: $secondary-color;
+    font-style: italic;
+    margin-bottom: $spacing-medium;
+  }
+
+  // Navigation
+  nav {
+    margin-top: $spacing-small;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding-top: $spacing-small;
+
+    a {
+      color: $header-text;
+      text-decoration: none;
+      font-size: $font-size-small;
+      font-family: $font-family;
+      margin-right: $spacing-medium;
+      opacity: 0.85;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+
+      &:hover {
+        opacity: 1;
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+// Layout
+main {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $spacing-medium;
+}
+
+// Typography
+h1 { font-size: $font-size-h1; margin-bottom: $spacing-medium; color: $text-color; }
+h2 { font-size: $font-size-h2; margin-bottom: $spacing-medium; color: $text-color; }
+h3 { font-size: $font-size-large; margin-bottom: $spacing-small; color: $text-color; }
+
+p { margin-bottom: $spacing-medium; }
 
 // Links
 a {
@@ -17,10 +94,90 @@ a {
   }
 }
 
+// Post list
+.post-list {
+  list-style: none;
+
+  li {
+    margin-bottom: $spacing-large;
+    padding-bottom: $spacing-large;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .post-meta {
+    font-size: $font-size-small;
+    color: $secondary-color;
+    margin-bottom: 6px;
+  }
+
+  .post-link {
+    font-size: $font-size-large;
+    font-weight: bold;
+    color: $text-color;
+
+    &:hover {
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+}
+
+// Pagination
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $spacing-large;
+  font-size: $font-size-small;
+  color: $secondary-color;
+
+  a {
+    color: $primary-color;
+  }
+}
+
+// Footer
+footer {
+  max-width: $max-width;
+  margin: $spacing-large auto 0;
+  padding: $spacing-medium;
+  border-top: 1px solid $border-color;
+  font-size: $font-size-small;
+  color: $secondary-color;
+  text-align: center;
+  background-color: $footer-color;
+}
+
+// Code
+code {
+  font-family: $font-family-mono;
+  font-size: 15px;
+  background-color: $accent-color;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: $text-color;
+}
+
+pre {
+  font-family: $font-family-mono;
+  font-size: 15px;
+  background-color: $accent-color;
+  padding: $spacing-medium;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: $spacing-medium;
+  border-left: 3px solid $primary-color;
+}
+
 // Forms
-input,
-textarea {
-  border: 1px solid $secondary-color;
+input, textarea {
+  border: 1px solid $border-color;
   padding: $spacing-small;
   border-radius: 4px;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  background-color: $background-color;
 }
