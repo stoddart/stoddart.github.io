@@ -2,6 +2,7 @@
 layout: post
 title: Managing dotfiles with chezmoi
 date: 2024-09-08
+categories: [Development, Tools, Open-Source, Reviews]
 ---
 
 # Managing dotfiles with chezmoi

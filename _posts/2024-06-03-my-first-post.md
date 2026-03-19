@@ -2,6 +2,7 @@
 layout: post
 title: First post!
 date: 2024-06-03
+categories: [Notes]
 ---
 
 # I've been away for a while
