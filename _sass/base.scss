@@ -200,3 +200,25 @@ pre code {
   margin: 0;
   background-color: transparent;
 }
+
+// Page layout
+.page {
+  margin: 0 0 $spacing-large;
+
+  .page-title {
+    font-size: $font-size-h1;
+    color: $text-color;
+    margin-bottom: $spacing-large;
+    padding-bottom: $spacing-small;
+    border-bottom: 2px solid $border-color;
+  }
+
+  .page-content {
+    font-size: $font-size-base;
+    line-height: $line-height;
+
+    p {
+      margin-bottom: $spacing-medium;
+    }
+  }
+}
