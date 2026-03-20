@@ -61,21 +61,22 @@ I needed a better solution with less maintenance overhead. So I was intrigued wh
 - Running scripts 
 
 Best of all, updating your dotfiles on a given machine is a single command: 
-
-<pre><code>> chezmoi update</code></pre>
+```
+chezmoi update
+```
 
 Unlike other dotfile management solutions, chezmoi is a single binary with many install methods and no bootstrap requirements. It supports private files, whole file encryption, password manager integration, and custom variables in templates. With chezmoi you can set up your personal environment on a new machine with just two short commands, with minimal dependencies. 
 
 After installing chezmoi, follow the [quick start guide](https://www.chezmoi.io/quick-start/) to make the initial commit:
 
 ```
-> chezmoi init
-> chezmoi add ~/.zshrc
-> chezmoi cd
-> git commit -m 'init'
-> git remote add # Set remote to your repo
-> git branch -M main
-> git push origin main
+chezmoi init
+chezmoi add ~/.zshrc
+chezmoi cd
+git commit -m 'init'
+git remote add # Set remote to your repo
+git branch -M main
+git push origin main
 ```
 
 Now your ~/.zshrc is under version control. You can go ahead and add your most important dotfiles, like ~/.bashrc, ~/.bash_profile, ~/.profile, ~/.zshenv, ~/.tmux.conf, ~/.vimrc (or in my case, ~/.config/nvim/init.lua), ~/.ssh/config, ~/.gitconfig, ~/.gitignore_global, ~/.pythonrc, ~/.npmrc, ~/.curlrc, ~/.wgetrc, &c.

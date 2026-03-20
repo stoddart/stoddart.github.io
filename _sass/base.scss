@@ -181,3 +181,22 @@ input, textarea {
   font-size: $font-size-base;
   background-color: $background-color;
 }
+
+// Post content spacing
+.post-content {
+  ul, ol {
+    margin-bottom: $spacing-medium;
+    padding-left: $spacing-large;
+
+    li {
+      margin-bottom: 6px;
+    }
+  }
+}
+
+pre code {
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
