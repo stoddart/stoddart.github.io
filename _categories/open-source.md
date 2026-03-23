@@ -1,4 +1,4 @@
 ---
 layout: category
-title: Open-source
+title: Open Source
 ---
