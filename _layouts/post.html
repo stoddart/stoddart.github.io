@@ -7,6 +7,27 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if page.categories.size > 0 or page.tags.size > 0 %}
+  <div class="post-taxonomy">
+    {%- if page.categories.size > 0 %}
+    <p class="post-categories">
+      Filed under
+      {%- for cat in page.categories %}
+      <a href="/categories/{{ cat | slugify }}/">{{ cat }}</a>{% unless forloop.last %},{% endunless %}
+      {%- endfor %}
+    </p>
+    {%- endif %}
+    {%- if page.tags.size > 0 %}
+    <p class="post-tags">
+      Tagged
+      {%- for tag in page.tags %}
+      <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+      {%- endfor %}
+    </p>
+    {%- endif %}
+  </div>
+  {%- endif %}
+
   <div class="post-navigation">
     {%- if page.previous.url -%}
       <a class="prev" href="{{ page.previous.url | relative_url }}">&laquo; {{ page.previous.title }}</a>

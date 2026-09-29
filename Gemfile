@@ -22,6 +22,9 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1"
   gem "jekyll-gist", "~> 1.5"
   gem "jekyll-archives", "~> 2.2"
+  # Backwards-compatible redirects for post URLs that changed when the
+  # permalink style was switched to /:year/:month/:day/:title/
+  gem "jekyll-redirect-from", "~> 0.16"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

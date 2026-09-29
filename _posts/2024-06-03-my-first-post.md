@@ -3,6 +3,8 @@ layout: post
 title: First post!
 date: 2024-06-03
 categories: [Notes]
+redirect_from:
+  - /notes/2024/06/03/my-first-post.html
 ---
 
 # I've been away for a while

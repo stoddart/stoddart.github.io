@@ -126,6 +126,46 @@ a {
   }
 }
 
+// Category and tag lists
+.category-list {
+  list-style: none;
+
+  li {
+    margin-bottom: $spacing-small;
+    padding-bottom: $spacing-small;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .post-meta {
+    font-size: $font-size-small;
+    color: $secondary-color;
+    margin-left: $spacing-small;
+  }
+}
+
+// Post taxonomy (category and tag links shown under a post)
+.post-taxonomy {
+  margin-top: $spacing-large;
+  padding-top: $spacing-medium;
+  border-top: 1px solid $border-color;
+  font-size: $font-size-small;
+  color: $secondary-color;
+
+  p {
+    margin-bottom: 6px;
+  }
+}
+
+.post-list .post-tags {
+  display: block;
+  font-size: $font-size-small;
+  color: $secondary-color;
+}
+
 // Pagination
 .pagination {
   display: flex;

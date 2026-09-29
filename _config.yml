@@ -33,12 +33,21 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
+
+# Post URLs: /2024/09/08/managing-dotfiles-with-chezmoi/
+# Deliberately excludes :categories so that reorganising or recategorising a
+# post never changes its URL.
+permalink: /:year/:month/:day/:title/
 
 # Collections
 collections:
   categories:
     output: true
     permalink: /categories/:name/
+  tags:
+    output: true
+    permalink: /tags/:name/
 
 # Default front matter
 defaults:
@@ -51,6 +60,8 @@ defaults:
       share: true
 
 # Category settings
+# Posts carry a single category (their primary section). Any additional
+# keywords belong in `tags`, which does not affect post URLs.
 category_dir: categories
 category_title_prefix: "Category: "
 
@@ -62,8 +73,8 @@ nav_items:
     url: /about
   - title: Categories
     url: /categories
-  - title: Archive
-    url: /archive
+  - title: Tags
+    url: /tags
 
 # Social media links
 social:
