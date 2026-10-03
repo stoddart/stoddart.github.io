@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="180" height="180">
+  <rect width="64" height="64" fill="#3d2410"/>
+  <text x="32" y="41.2" fill="#f5f0e8"
+        font-family="Georgia, 'Times New Roman', 'Liberation Serif', serif"
+        font-size="28" font-weight="bold" letter-spacing="-0.5"
+        text-anchor="middle">DNS</text>
+</svg>
